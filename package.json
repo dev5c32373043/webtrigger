@@ -1,0 +1,20 @@
+{
+  "name": "web-trigger",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --watch src/server.ts"
+  },
+  "dependencies": {
+    "@bogeychan/elysia-logger": "^0.0.5",
+    "@elysiajs/swagger": "^0.6.1",
+    "@prisma/client": "5.2.0",
+    "dayjs": "^1.11.9",
+    "elysia": "latest",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^5.2.0"
+  },
+  "module": "src/index.js"
+}
